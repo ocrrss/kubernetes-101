@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: web
-      image: janakiramm/web
+      image: ivreddy/kubernetesr:web
       ports:
         - containerPort: 5000
           name: http

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: janakiramm/web
+          image: ivreddy/kubernetes:web
           ports:
             - containerPort: 5000
               name: http
